@@ -14,7 +14,8 @@ class Circle(Shape):
 
 
 class ShapeFactory:
-
+    
+    @staticmethod
     def getshape(self, type1):
         if type1 is None:
             print('No shape mentioned.. ')
